@@ -139,7 +139,8 @@
       <label for="max_dist" class="loc"> MaximumDistance (km):</label>
       <input class="text" id="distance" type="text" value="10" />
       <br />
-      <input type="button" class="btn" value="Find Charging Stations" onclick="findLocation()" />
+      <input type="button" class="btn" value="Find Charging Stations" id="findChargingBtn" onclick="findLocation()" />
+      <input type="button" class="btn" value="Find Nearest Station" id="nearestStationBtn" onclick="findNearestStation()" style="display: none;" />
     </div>
     <!-- <hr> -->
     <!-- <div class="mcom">
@@ -164,7 +165,7 @@
   </div> 
   <div class="clear" />
 
-  <script src="ev_search.js"></script>
+  <script src="test.js"></script>
 </body>
 
 </html>
